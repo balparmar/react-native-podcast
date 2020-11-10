@@ -1,0 +1,16 @@
+If you have more time to do UI / UX improvements, what improvements would you make?
+
+    I would add more information on the podcasts. Currently only the name is displayed in the list, I'm sure people would be interested in knowing who the podcast is by 
+or be able to see a small art icon. Clicking on the episode could also expand and provide more information.  I would anchor the media buttons to the bottom, add nicer buttons, and center them.
+The artwork should be more front and center of the currently being played podcast.
+
+Do you see any pros / cons working with react-native-track-player?
+
+    The biggest pro is being able to call the TrackPlayer from anywhere once it has been initialized. That makes working with it fairly easy. Cons are there are not many resources from what 
+I can find beyond the documentation. That being said, the documentation is nice and easy to understand and fairly easy to navigate. 
+
+How would you go about implementing offline listening for the episodes?
+
+    Currently with how the TrackPlayer works and how you add tracks to the trackplayer it is not that hard to retrieve a file saved on your computer instead of using a url. So quick solution 
+would be to allow users to save the podcast to their device in a folder, and use a relative path to add that track to the trackplayer. 
+
